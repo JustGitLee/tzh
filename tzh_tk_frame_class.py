@@ -12,7 +12,7 @@ last_value_cell = ws[33][2].value
 current_value_cell = ws[33][2].value
 
 def checking_cell():
-    if cell == 50:
+    if not ws[33][cell].value and not ws[1][cell].value:
         save_close()
 
 def back():
